@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Di&#225;k"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-06 03:22:51 du."/>
+        <attribute name="created" value="RGnDoWs7UEVUUklLOzIwMjItMTAtMDY7MDM6MTc6MzAgZHUuOzIzNDU="/>
+        <attribute name="edited" value="RGnDoWs7UEVUUklLOzIwMjItMTAtMDY7MDM6MjI6NTEgZHUuOzE7MjQ1Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="oldal" type="Real" array="False" size=""/>
+            <output expression="&quot;K&#233;rem a h&#225;romsz&#246;g oldal&#225;nak a hossz&#225;t:&quot;" newline="True"/>
+            <input variable="oldal"/>
+            <declare name="magassag" type="Real" array="False" size=""/>
+            <output expression="&quot;K&#233;rem a h&#225;romsz&#246;g magass&#225;g&#225;t: &quot;" newline="True"/>
+            <input variable="magassag"/>
+            <output expression="&quot;A h&#225;romsz&#246;g ter&#252;lete: &quot;&amp;magassag*oldal/2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
